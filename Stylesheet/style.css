@@ -1,8 +1,80 @@
-/* *{
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}  
+
+/* nav section */
+nav{
+    background-color: #d27d2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px ;
+}
+
+
+.blog_title_tag{
+    text-decoration: none;
+    color:  rgb(3, 39, 18);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.blog_title_tag:hover{
+    color: white;
+}
+
+.blog_nav_tag{
+    display: flex;
+    gap: 3rem;
+}
+
+.blog_nav_tag:hover{
+    color: white;
+}
+
+.nav_link{
+    text-decoration: none;
+    color:  rgb(3, 39, 18);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    
+}
+
+.nav_link:hover{
+    color: white;
+}
+
+
+/* blog header */
+.blog_head{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.blog_head_title h2{
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+
+
+.blog_image{
+   
+    padding-left: 20px;
+    
+}
+
+.blog_image img{
+    width: 81.8rem;
+    height: 100vh;
+}
 
 
 figure{
@@ -12,18 +84,93 @@ figure{
     border: none;   
 }
 
-footer{
-    border-top: 2px solid #000000;
+
+/* blog body */
+main{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 20px;
+    background-color: #f7e6d6;
+   
+}
+
+
+.cultural_diversity, .history_heritage, .country_population, .africa_lang, .global_influence, .african_society, .challenges{
+    padding-top: 15px;
+}
+
+.country_population, .africa_lang{
+    padding-left: 15px;
 }
 
 
 
+/* Aside */
+aside{
+    background-color: #d27d2a;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.related_post{
+    padding-top: 35px;
+
+} 
+
+.related_post h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.related_post ul li{
+    padding-top: 55px;
+}
+
+/* footer */
+footer{
+    border-top: 2px solid #000000;
+    background-color: #d27d2a;
+    color: rgb(3, 39, 18);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* footer p{
+    padding-bottom: 15px;
+} */
+
+#copyright{
+    padding-top: 10px;
+    /* border-top: 2px solid white; */
+}
+
+/* media query for medium devices(tablet) */
+@media (max-width:768px) {
+    .blog_image{
+        /* max-width: 50px; */
+        border:1px solid red;
+    }
+
+    .blog_image img{
+        width: 45.8rem;
+        
+    }
+}
+
 
 
 /* media query for small devices(mobile large) */
+
 @media (max-width:425px) {
 
-.blog_title{
+nav{
+    display: block;
+}
+
+    .blog_title{
     text-align: center;
 }
 
