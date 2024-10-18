@@ -64,19 +64,6 @@ nav{
 }
 
 
-
-.blog_image{
-   
-    padding-left: 20px;
-    
-}
-
-.blog_image img{
-    width: 1250px;
-    /* height: 100vh; */
-    
-}
-
 figure{
     display: flex;
     flex-direction: column;
@@ -90,6 +77,18 @@ figure{
     padding-left: 0;
     margin-top: 2rem;
     border: none;   
+}
+
+/* .blog_image{
+   
+    padding-left: 20px;
+    
+} */
+
+.blog_image img{
+    width: 1250px;
+    /* height: 100vh; */
+    
 }
 
 
