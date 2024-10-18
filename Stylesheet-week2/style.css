@@ -72,7 +72,7 @@ nav{
 }
 
 .blog_image img{
-    width: 81.8rem;
+    width: 1300px;
     /* height: 100vh; */
     
 }
@@ -191,7 +191,7 @@ nav{
 
 
 .nav_link{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .blog_nav_tag{
     display: block;
@@ -203,7 +203,7 @@ nav{
 }
 
 .blog_head_title h2{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 
@@ -215,7 +215,7 @@ nav{
 
    
     .author_profile p{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 
 
