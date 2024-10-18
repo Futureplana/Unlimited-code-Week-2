@@ -72,7 +72,7 @@ nav{
 }
 
 .blog_image img{
-    width: 1300px;
+    width: 1250px;
     /* height: 100vh; */
     
 }
@@ -99,7 +99,7 @@ main{
     justify-content: center;
     gap: 3rem;
     padding: 20px;
-    background-color: #f7e6d6;
+    background-color: #f8eee5;
    
 }
 
