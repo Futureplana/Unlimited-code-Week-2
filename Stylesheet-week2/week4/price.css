@@ -1,0 +1,116 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  
+  .header-wrapper{
+    width: 100vw;
+    background-color: white;
+    border-bottom: 1px solid rgb(199, 199, 199);
+  }
+  
+  .main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    /* background-color: brown; */
+    margin: 0 auto;
+  }
+  
+  .main-header ul{
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li{
+    padding-right: 1.5rem;
+  }
+  
+  .main-header a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn{
+    border: 1px solid black;
+    margin: 0.5rem 0;
+    border-radius: .5rem;
+  }
+  
+  .sign-in{
+    padding: 5px 12px;
+  }
+  
+  
+  .hero{
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  .hero h1{
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .hero p a {
+    text-decoration: none;
+  }
+  
+  
+  .branding{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .container_box{
+    /* border: 1px solid rgb(27, 5, 5); */
+    margin-top: 3.2rem;
+    /* margin-left: 5rem; */
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    width: 20rem;
+    border-radius: 0.5rem;
+    /* height: 30rem; */
+  
+  }
+  
+  
+  .header_category img{
+    width: 15%;
+  }
+  
+  .header_category h2{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+  
+  .price{
+    padding-top: 1.6rem;
+  }
+  
+  .price h2 sub{
+    font-weight: 100;
+  }
+  
+  .button_price{
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0.4rem 7rem 0.4rem 6.2rem;
+    background-color: rgb(201, 15, 117);
+    color: #fff;
+    border-radius: 4rem;
+  
+  }
+  
+  .description_list li{
+   padding-top: 0.5rem;
+  }
+  
+  
